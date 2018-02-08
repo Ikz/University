@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    
+    <head>
+        <title>Epic Game Reviews</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link id="pagestyle" rel="stylesheet" type="text/css" href="css/style.css"/>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript">
+            function swapStyleSheet(sheet){
+                document.getElementById('pagestyle').setAttribute('href', sheet);}
+        </script><!--close stylesheet swap-->
+    </head>
+    <body>
+        <div id="main">
+            <div id="header">
+                <div id="banner">
+                    <div id="logo">
+                        <br/><br/><br/><br/><br/><br/>
+                    </div><!--close logo-->
+                </div><!--close banner-->
+            </div><!--close header-->
+            
+            <div id="menubar">
+                <ul id="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li class="current"><a href="contact.html">Contact Us</a></li>
+                    <li><a href="start.html">Explanation</a></li>
+                </ul>
+            </div><!--close menubar-->
+            
+            <div id="site_content">
+	   
+      <div id="content">
+        <div class="content_item">
+		  <div class="form_settings">
+            <h2>Contact Us</h2>
+            <p>If you would like to get in contact with us or simply leave us some feedback, feel free to enter the form below.</p>
+            <br/>
+            <form name="castro" method="post" action="http://www.elizabethcastro.com/html6ed/examples/forms/showform.php">
+			<p><span>Name</span><input class="contact" type="text" name="name" value="" /></p>
+			<p><span>Email Address</span><input class="contact" type="text" name="email" value="" /></p>
+			<p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="message"></textarea></p>
+            <p style="padding-top: 15px"><span><br/></span><input class="submit" type="submit" name="contact_submitted" value="Send" /></p></form><br/>
+          </div><!--close form_settings-->
+		</div><!--close content_item-->
+      </div><!--close content-->  
+    </div><!--close site_content-->
+  </div><!--close main-->
+  
+  <div id="footer">
+      Copyright &copy; 2016 <b>Epic Game Reviews</b> <i>Ikhlas Ahmed - P15176742</i>
+  </div><!--close footer-->
+  <div><br/></div><div class="button_small" style="width:100px; margin:0 auto;">
+      <a onclick="swapStyleSheet('css/style.css')" style="margin:0 auto; text-align:center; display:block; width:50px;">Blue</a>
+  </div>
+  <div>
+      <br/>
+  </div>
+  <div class="button_small" style="width:100px; margin:0 auto;">
+      <a onclick="swapStyleSheet('css/style2.css')" style="margin:0 auto; text-align:center; display:block; width:50px;">Red</a>
+  </div>
+  <div>
+      <br/>
+  </div>
+  <div class="button_small" style="width:100px; margin:0 auto;">
+      <a onclick="swapStyleSheet('css/style3.css')" style="margin:0 auto; text-align:center; display:block; width:50px;">Wide</a>
+      <br/>
+  </div>
+    </body>
+</html>
